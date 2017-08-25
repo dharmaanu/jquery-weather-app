@@ -1,48 +1,8 @@
-# Welcome to the JavaScript for React/Redux Developers
 
-## Instructor
-
-Eric Greene - [http://t4d.io](http://t4d.io) - [LinkedIn](https://www.linkedin.com/in/ericwgreene)
-
-## Schedule
-
-Class:
-
-- Monday - Tuesday: 9:00am to 5:00pm PDT
-
-Breaks:
-
-- Morning: 10:25am to 10:35am
-- Lunch: Noon to 1pm
-- Afternoon #1: 2:15pm to 2:25pm
-- Afternoon #2: 3:40pm to 3:50pm
-
-## Course Outline
-
-- Day 1: Types, Declarations, Arrays, Functions, Objects, Classes, Closures, Spreads/Rest, Destructuring
-- Day 2: Asynchronous Programming, Closures, Promises, Async/Await, Generators, Maps/Sets
-
-## Links
-
-### Instructor's Resources
-
-- [DevelopIntelligence](http://www.developintelligence.com/)
-- [Eric's Blog](http://t4d.io/)
-- [WintellectNOW](https://www.wintellectnow.com/Home/Instructor?instructorId=EricGreene) - Special Offer Code: GREENE-2016
-- [Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=Eric%20Greene&lang=1033)
-
-### Other Resources
-
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-- [JavaScript Air Podcast](http://javascriptair.podbean.com/)
-- [Speaking JavaScript](http://speakingjs.com/es5/)
-- [TC39 Process - Feature Stages](http://www.2ality.com/2015/11/tc39-process.html)
-- [Official ES2016 Features](http://www.2ality.com/2016/01/ecmascript-2016.html)
-- [Possible ES2017 Features](http://www.2ality.com/2016/02/ecmascript-2017.html)
 
 ## Setup Instructions
 
-This is a starter project for creating an HTML/CSS/JS application.
+This is a weather app project for creating an HTML/CSS/JS application.
 
 ### Application Setup
 
@@ -78,20 +38,9 @@ This set has been completed successfully when you receive the following message:
 
 This terminal window is now running the web server, a second terminal window will need to be opened to run additional terminal commands.
 
-Step 5. Open a web browser, and navigate to [http://localhost:8080](http://localhost:8080).  The starter web application should load and be usable.
+Step 5. Open a web browser, and navigate to [http://localhost:3000](http://localhost:300).  The weather app should load
 
 Note: This command will run, and then wait for file changes to process updated source code from the **public** folder. Webpack does **NOT** exit and return to a terminal prompt. Please do not close this terminal window.
-
-#### To Modify the Web Application
-
-Step 6. Open your favorite text editor (such as [Visual Studio Code](https://code.visualstudio.com)), and modify the files in the **public** folder. When file changes are saved, **webpack** will automatically transpile and bundle the application code and assets, and load it into the memory of the web server. To see the changes, reload your web browser (live reload is enabled so reloading will probably occur automatically).
-
-I recommend install the following Visual Studio Code extensions:
-
-- dbaeumer.vscode-eslint
-- mkaufman.htmlhint
-- DavidAnson.vscode-markdownlint
-- robertohuertasm.vscode-icons
 
 ### NPM Scripts Command Reference
 
